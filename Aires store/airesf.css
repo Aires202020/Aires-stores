@@ -1,0 +1,80 @@
+body{
+    background-color:black;
+    color: gold;
+    font-family:'Roboto',sans-serif;
+    font-variant:small-caps;
+}
+.A{
+    margin-top: 20px;
+    margin-left: 25px;
+    height: 20vh;
+    width: 25vh;
+    object-fit: cover;
+}
+
+
+@media(max-width:320px) {
+    body{
+        background-color: black;
+    }
+    
+    
+}
+
+
+@media (min-width:320px) and (max-width:374px) {
+    body{
+        background-color: black;
+    }
+    
+}
+
+/*MOBILE DEVICE (SMALL)*/
+
+@media (min-width:375px) and (max-width:767px){
+    
+    body{
+        background-color: black;
+        
+    }
+    
+}
+
+
+
+@media(min-width:368px) and (max-width:1024px) {
+    body{
+        background-color: black;
+        
+        
+    }
+    
+}
+
+
+
+
+    
+
+    
+
+.Aires{
+    text-align: center;
+    
+}
+
+
+div{
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+p{
+    justify-content: space-between;
+}
+
+p img{
+    width: 100px;
+    height: 100px;
+}
